@@ -7,6 +7,57 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
-/* Add styles here! */
+body {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  background-color: #666666;
+  border-top: 8px inset;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.intro-chunk {
+  margin-top: 96px;
+  margin-bottom:64px;
+  padding-left: 24px;
+  padding-right: 24px;
+  max-width: 415px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 48px;
+}
+
+.intro-chunk  strong {
+  color: #009966;
+}
+
+.card {
+  background-color: #fff;
+  padding:24px;
+  border-bottom: 8px outset;
+}
+
+.indented-heading {
+  background-color: #ffbf00;
+  padding: 16px 32px;
+  width: fit-content;
+  border-bottom: 8px solid #cc9900;
+  margin-left: -32px;
+  margin-top: 0px;
+  margin-top: -16px;
+  font-size: 1.5rem;
+}
